@@ -85,7 +85,7 @@ body{
     box-shadow: 0 4px 8px rgba(0,0,0,0.322);
     cursor: pointer;
     max-height: 250px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     width: 100%;
     display: none;
 }
@@ -151,6 +151,14 @@ body{
     display: flex;
     justify-content: center;
     margin: 2em 0;
+    border-radius: 60px;
+    /* box-shadow: 0 0 15px 3px rgba(124, 112, 112, 0.322); */
+}
+
+.upload button:hover, .download:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.322);
+    background-image: linear-gradient(to right, #91e2ab 100%, #5db6e2 51%, #00aef9 100%);
+    /* background-image: linear-gradient(to right, #5ed68a 0%, #8fd3f4 51%, #7a9aa6 100%); */
 }
 
 #footer{
